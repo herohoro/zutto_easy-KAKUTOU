@@ -2,6 +2,9 @@ English | [日本語](README.ja.md) | [한국어](README.kr.md)
 
 # easy-notion-blog
 
+**Since development by the developers has been completed, users continue to gather wisdom from each other to maintain the system.**
+
+
 [![GitHub stars](https://img.shields.io/github/stars/otoyo/easy-notion-blog)](https://github.com/otoyo/easy-notion-blog/stargazers)
 [![GitHub license](https://img.shields.io/github/license/otoyo/easy-notion-blog)](https://github.com/otoyo/easy-notion-blog/blob/master/LICENSE)
 
@@ -14,7 +17,7 @@ It helps you to start your Notion Blog easily and rapidly.
 - :hammer_and_wrench: **Can fully customize** the site's appearance
 - :white_check_mark: Using **official Notion APIs**
 
-Please consider [astro-notion-blog](https://github.com/otoyo/astro-notion-blog) as it is being developed well.
+
 
 ## Screenshots
 
@@ -97,15 +100,12 @@ See [wiki](https://github.com/otoyo/easy-notion-blog/wiki).
 
 Please create an issue. **Both in English and in Japanese are OK.** :wink:
 
-## :bird: Twitter community
-
-You can get latest information about updates, and you can be supported by other members if you want to know how to customize.
-
-- [easy-notion-blog](https://twitter.com/i/communities/1497431576975908868)
 
 ## Contribution
 
 Pull requests are welcome.
+![Screenshot 2023-04-28 at 16 23 34](https://user-images.githubusercontent.com/24947347/235082938-e51966f1-e598-47d7-8d59-50aed9583b9a.png)
+
 
 ---
 
