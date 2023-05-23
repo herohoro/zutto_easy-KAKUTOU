@@ -4,7 +4,7 @@ import {
   NEXT_PUBLIC_SITE_TITLE,
   NEXT_PUBLIC_SITE_DESCRIPTION,
   NUMBER_OF_POSTS_PER_PAGE,
-} from '../../app/server-constants'
+} from '../server-constants'
 import GoogleAnalytics from '../../components/google-analytics'
 import {
   BlogPostLink,
@@ -31,7 +31,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const title = `Blog - ${NEXT_PUBLIC_SITE_TITLE}`
   const description = NEXT_PUBLIC_SITE_DESCRIPTION
   const url = NEXT_PUBLIC_URL ? new URL('/blog', NEXT_PUBLIC_URL) : undefined
-  const images = NEXT_PUBLIC_URL ? [{ url: new URL('/default.png', NEXT_PUBLIC_URL) }] : []
+  const images = NEXT_PUBLIC_URL
+    ? [{ url: new URL('/default.png', NEXT_PUBLIC_URL) }]
+    : []
 
   const metadata: Metadata = {
     title: title,
@@ -72,7 +74,7 @@ const BlogPage = async () => {
         <div className={styles.mainContent}>
           <NoContents contents={posts} />
 
-          {posts.map(post => {
+          {posts.map((post) => {
             return (
               <div className={styles.post} key={post.Slug}>
                 <PostDate post={post} />
