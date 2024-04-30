@@ -5,6 +5,7 @@
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error",
     "@next/next/no-img-element": "off",
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "react/no-direct-mutation-state": "off"
   }
 }
