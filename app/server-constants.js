@@ -9,6 +9,9 @@ const NEXT_PUBLIC_SITE_TITLE = 'easy-notion-blog'
 const NEXT_PUBLIC_SITE_DESCRIPTION = 'Easy to start your blog. You can write on your Notion.'
 const NUMBER_OF_POSTS_PER_PAGE = 10
 
+console.log("server-constants_NOTION_API_SECRET:", NOTION_API_SECRET);
+console.log("server-constants_DATABASE_ID:", DATABASE_ID);
+
 module.exports = {
   NOTION_API_SECRET,
   DATABASE_ID,
