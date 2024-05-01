@@ -39,5 +39,10 @@ module.exports = {
 
   experimental: {
     appDir: true,
+    optimizePackageImports: [
+      'axios',
+      'prismjs',
+      'react-katex'
+    ],
   },
 }
